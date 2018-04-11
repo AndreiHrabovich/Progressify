@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Progress Tracker
+
+  Created by Andrei on 3/21/18.
+  Copyright © 2018 Andrei. All rights reserved.
+*/
+
+//UNService
+"notificationTitle" = "Все еще практикуетесь?";
+"notificationBody" = "Откройте приложение, чтобы подтвердить свою активность, или система может удалить эту сессию!";
+
+//NewTask
+"placeholder" = "Новое задание";
+"addNewTask" = "Добавить";
+"clearTask" = "Очистить";
+
+//TaskListVM
+"duplicateNameAlertTitle" = "Повтор";
+"duplicateNameAlertMessage" = "Задание с таким названием уже существует. Выберите другое название!";
+
+//MARK: - DisplayTìmerView
+"tagsLabel" = "часы  минуты  секунды";
+
+//MARK: - Task
+"hours" = "ч";
+"minutes" = "мин";
+"seconds" = "сек";
+
+//MARK: - TaskVC
+// sessionsCountLabelText is both for TaskVC and TaskCell
+"sessionsCountLabel" = "Cессий: ";
+"goButton" = "Новая сессия";
+"doneButton" = "Завершить";
+
+//MARK: - SessionVC
+"infoLabel01" = "Начать или выйти";
+"infoLabel02" = "Поставить на паузу, завершить или выйти";
+"infoLabel03" = "Возобновить, завершить или выйти";
+"infoLabel04" = "Сохранить или выйти";
+
+//MARK: - SessionVM
+"newSessionAlertTitle" = "Новая сессия!";
+"newSessionAlertBody" = "Если Вы разрешили отправку уведомлений, приложение будет напоминать вам о необходимости подтвердить активность через 30 минут после того, как оно стало неактивным. Если же Вы отклонили уведомления, активируйте их или открывайте неактивное приложение хотя бы через 30 минут, иначе система может удалить данную сессию. Это мера предосторожности необходима, чтобы избежать бесконечных сессий и бесполезного использования ресурсов вашего устройства. Когда закончите, не забудьте остановить сессию и сохранить результаты или выйти без сохранения! Спасибо!";

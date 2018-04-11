@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Progress Tracker
+
+  Created by Andrei on 3/21/18.
+  Copyright © 2018 Andrei. All rights reserved.
+*/
+
+//UNService
+"notificationTitle" = "Still practicing?";
+"notificationBody" = "Оpen the app to verify that you are still practicing, or the system may delete the session!";
+
+//NewTask
+"placeholder" = "Enter New Task Name";
+"addNewTask" = "Add New Task";
+"clearTask" = "Clear";
+
+//TaskListVM
+"duplicateNameAlertTitle" = "Duplicate";
+"duplicateNameAlertMessage" = "Such a task already exists. Please choose another name!";
+
+//MARK: - DisplayTìmerView
+"tagsLabel" = "hours  minutes  seconds";
+
+//MARK: - Task
+"hours" = "h";
+"minutes" = "min";
+"seconds" = "sec";
+
+//MARK: - TaskVC
+// sessionsCountLabelText is both for TaskVC and TaskCell
+"sessionsCountLabel" = "Sessions: ";
+"goButton" = "Create New Session";
+"doneButton" = "Done";
+
+//MARK: - SessionVC
+"infoLabel01" = "Start or Quit";
+"infoLabel02" = "Pause, Stop or Quit";
+"infoLabel03" = "Resume, Stop or Quit";
+"infoLabel04" = "Save or Quit";
+
+//MARK: - SessionVM
+"newSessionAlertTitle" = "New Session!";
+"newSessionAlertBody" = "If you’ve allowed notifications, the app will remind you about the necessity to confirm your activity 30 minutes after it turns inactive. If you’ve declined notifications, enable them or open the inactive app in 30 minutes, otherwise the system may delete the session. This is a safety measure designed to avoid infinite sessions and wasting your app’s resources. When you are done, don’t forget to stop the session and save the results or quit without saving! Thanks!";
